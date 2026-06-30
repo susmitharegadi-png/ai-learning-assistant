@@ -1,0 +1,6 @@
+Planned Models:
+1. BiLSTM Emotion Classifier
+2. BERT Emotion Classifier
+
+Current MVP uses rule-based emotion scoring.
+Future versions will replace this with trained deep learning models.
