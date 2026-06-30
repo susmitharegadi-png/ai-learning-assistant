@@ -244,7 +244,6 @@ This section validates the Analytics Dashboard, ensuring that users can seamless
 
 ### Sample Dashboard
 
-![Analytics Dashboard](./assets/analytics-dashboard.png)
 
 *The Analytics Dashboard provides interactive visualizations and summary insights, allowing users to explore emotion trends, confidence levels, study field analytics, and overall learning statistics through an intuitive interface.*
 
@@ -300,8 +299,6 @@ This section validates the **Fields** tab of the Analytics Dashboard, ensuring t
 ---
 
 ### Sample Dashboard
-
-![Fields Analytics Dashboard](./assets/fields-dashboard.png)
 
 *The Fields Analytics Dashboard compares emotion predictions across different study fields and machine learning models, allowing users to analyze emotional trends and evaluate model-specific prediction results through interactive visualizations.*
 
