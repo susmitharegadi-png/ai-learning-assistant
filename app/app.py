@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import csv
+import os
+from datetime import datetime
 
 
 def detect_emotion(text):
@@ -87,6 +90,19 @@ if st.button("Analyze"):
 
     st.write(f"BiLSTM Prediction: {bilstm_prediction}")
     st.write(f"BERT Prediction: {bert_prediction}")
+    
+    file_path = "logs/interaction_logs.csv"
+    file_exists = os.path.isfile(file_path)
+
+    dominant_emotion = max(emotion_scores, key=emotion_scores.get)
+
+    with open(file_path, mode="a", newline="") as file:
+        writer = csv.writer(file)
+
+        if not file_exists:
+            writer.writerow(["Timestamp", "User Input", "Emotion"])
+
+        writer.writerow([datetime.now(), user_input, dominant_emotion])
 
 # OUTSIDE analyze block
 st.divider()
