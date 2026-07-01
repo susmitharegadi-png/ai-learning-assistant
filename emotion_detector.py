@@ -6,12 +6,25 @@ def detect_emotion(text):
     text = text.lower()
 
     emotions = {
-        "Confused": ["stuck", "confused", "lost", "don't understand"],
-        "Bored": ["boring", "sleepy", "dull"],
-        "Confident": ["easy", "solved", "understand", "confident"],
-        "Curious": ["want to learn", "interested", "curious", "explore"],
-        "Frustrated": ["frustrated", "annoyed", "angry", "irritated", "error"]
-    }
+    "Confused": [
+        "stuck", "confused", "lost", "don't understand",
+        "difficult", "hard", "unclear"
+    ],
+    "Bored": [
+        "boring", "sleepy", "dull", "tired"
+    ],
+    "Confident": [
+        "easy", "solved", "understand", "confident"
+    ],
+    "Curious": [
+        "want to learn", "interested", "curious", "explore"
+    ],
+    "Frustrated": [
+        "frustrated", "annoyed", "angry", "irritated",
+        "error", "stress", "stressed", "exam", "pressure",
+        "unable", "focus"
+    ]
+}
 
     scores = {}
 
