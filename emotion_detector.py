@@ -35,12 +35,12 @@ def detect_emotion(text):
     return percentages
 
 
-user_input = input("Enter your problem: ")
-emotion_scores = detect_emotion(user_input)
+#user_input = input("Enter your problem: ")
+#emotion_scores = detect_emotion(user_input)
 
-print("Detected Emotions:")
-for emotion, score in emotion_scores.items():
-    print(f"{emotion}: {score}%")
+#print("Detected Emotions:")
+#for emotion, score in emotion_scores.items():
+#   print(f"{emotion}: {score}%")
 
 # Save to CSV
 file_path = "logs/interaction_logs.csv"
