@@ -1,18 +1,30 @@
 # Project Planning
 
-## Phase 1
-- Requirement Analysis
-- Dataset Collection
+## Project Timeline
 
-## Phase 2
-- Data Preprocessing
-- Model Development (BiLSTM)
+### Phase 1: Requirement Analysis
+- Define project objectives
+- Identify functional and non-functional requirements
+- Collect and understand the dataset
 
-## Phase 3
-- Streamlit Application Development
-- Gemini API Integration
+### Phase 2: Model Development
+- Data preprocessing
+- Train the BiLSTM emotion detection model
+- Evaluate model performance
 
-## Phase 4
-- Testing
-- Documentation
-- Final Submission
+### Phase 3: Application Development
+- Develop the Streamlit web application
+- Integrate the trained model
+- Integrate Google Gemini API for personalized responses
+
+### Phase 4: Testing
+- Test emotion prediction
+- Test AI response generation
+- Test analytics dashboard
+- Fix bugs
+
+### Phase 5: Documentation & Submission
+- Prepare documentation
+- Create GitHub repository
+- Record demo video
+- Submit the project
