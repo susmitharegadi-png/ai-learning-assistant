@@ -22,4 +22,4 @@ This project analyzes student input, detects emotions such as Confused, Frustrat
 8. Project Demonstration
 
 ## Demo Video
-(Add your Google Drive link here)
+https://drive.google.com/file/d/1vwbntmY4qkfSru8GYEunMqSZxhTBTEKO/view?usp=sharing
